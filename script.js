@@ -19,7 +19,6 @@ function newItem(){
     deleteButton.on('click',() => li.addClass("delete"));
 
     $('#list').sortable();
-
 };
 
 

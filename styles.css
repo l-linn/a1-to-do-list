@@ -6,6 +6,11 @@ body {
     background: #dfdfdf;
 }
 
+h2, p {
+    text-align: center;
+    font-size: 14px;
+}
+
 .container{
     padding: 20px;
     width: 300px;
@@ -72,4 +77,15 @@ li > div {
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+}
+
+.form-input-filter {
+    width: 200px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: none;
 }
